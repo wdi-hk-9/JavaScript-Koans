@@ -13,7 +13,7 @@ test("for", function() {
 	for (var i = 1; i <= 3; i++) {
 		counter = counter + i;
 	}
-	equal(16, counter, 'what is the value of counter?');
+	equal(15, counter, 'what is the value of counter?');
 });
 
 test("for in", function() {
