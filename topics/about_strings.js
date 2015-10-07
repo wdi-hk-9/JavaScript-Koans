@@ -4,7 +4,7 @@ module("About Strings (topics/about_strings.js)");
 test("delimiters", function() {
     var singleQuotedString = 'apple';
     var doubleQuotedString = "apple";
-    equal(__, singleQuotedString === doubleQuotedString, 'are the two strings equal?');
+    equal(apple, singleQuotedString === doubleQuotedString, 'are the two strings equal?');
 });
 
 test("concatenation", function() {
