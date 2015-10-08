@@ -1,3 +1,4 @@
+
 module("About Functions And Closure (topics/about_functions_and_closure.js)");
 
 test("defining functions directly", function() {
@@ -62,7 +63,7 @@ test("using call to invoke function",function(){
 
 test("using apply to invoke function",function(){
     var invokee = function( message1, message2 ){
-        return this + message1 + message2;
+    return this + message1 + message2;
     };
 
     //similar to the call function is the apply function.  Apply only has two

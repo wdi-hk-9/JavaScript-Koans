@@ -9,7 +9,7 @@ test("exec", function() {
 
 test("test", function() {
     var containsSelect = /select/.test("  select * from users ");
-    equal(true, containsSelect, 'does the string provided contain "select"?');
+    equal(__, containsSelect, 'does the string provided contain "select"?');
 });
 
 test("match", function() {
